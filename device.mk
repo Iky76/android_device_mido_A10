@@ -19,9 +19,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 $(call inherit-product, $(LOCAL_PATH)/go_mido.mk)
 
 # RR DEVICE
-PRODUCT_NAME := rr_mido
+PRODUCT_NAME := qassa_mido
 PRODUCT_DEVICE := mido
-PRODUCT_MODEL := Redmi Note 4 (RR)
+PRODUCT_MODEL := Redmi Note 4
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
