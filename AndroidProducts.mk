@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/qassa_mido.mk
+    $(LOCAL_DIR)/nad_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    qassa_mido-user \
-    qassa_mido-userdebug \
-    qassa_mido-eng
+    nad_mido-user \
+    nad_mido-userdebug \
+    nad_mido-eng

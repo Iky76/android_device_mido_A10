@@ -22,20 +22,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
 # Inherit some common Qassa stuff.
-$(call inherit-product, vendor/qassa/config/common_full_phone.mk)
+$(call inherit-product, vendor/nad/config/common_full_phone.mk)
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
 USE_PIXEL_CHARGING := true
 TARGET_BOOT_ANIMATION_RES := 1080
 QTI_OPTOUT := true
-QASSA_BUILD_TYPE ?= byNgantu
 
 # RR faceunlock stuff
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
-PRODUCT_NAME := qassa_mido
+PRODUCT_NAME := nad_mido
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 4
 PRODUCT_MANUFACTURER := Xiaomi
